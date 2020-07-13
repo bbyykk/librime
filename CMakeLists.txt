@@ -11,7 +11,7 @@ add_definitions(-DRIME_VERSION="${rime_version}")
 
 include(GNUInstallDirs)
 
-option(BUILD_SHARED_LIBS "Build Rime as shared library" ON)
+option(BUILD_SHARED_LIBS "Build Rime as shared library" OFF)
 option(BUILD_MERGED_PLUGINS "Merge plugins into one Rime library" ON)
 option(BUILD_STATIC "Build with dependencies as static libraries" OFF)
 option(BUILD_DATA "Build data for Rime" OFF)

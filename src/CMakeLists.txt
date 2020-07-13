@@ -141,3 +141,5 @@ else()
   set_target_properties(rime-static PROPERTIES OUTPUT_NAME "rime" PREFIX "lib")
   install(TARGETS rime-static DESTINATION ${LIB_INSTALL_DIR})
 endif()
+
+add_subdirectory(fcitx-rime)
